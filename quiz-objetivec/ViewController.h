@@ -1,15 +1,12 @@
-//
-//  ViewController.h
-//  quiz-objetivec
-//
-//  Created by dainf on 24/02/17.
-//  Copyright © 2017 br.utfpr. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import "PerguntaDao.h"
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UILabel *tituloQuiz;
+@property IBOutlet UILabel *perguntaLabel;
+
+@property PerguntaDao *perguntaDao;
 
 @end
 

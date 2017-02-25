@@ -13,6 +13,9 @@
 		F5216AC81E60E3D2001FC7F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5216AC61E60E3D2001FC7F8 /* Main.storyboard */; };
 		F5216ACA1E60E3D2001FC7F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5216AC91E60E3D2001FC7F8 /* Assets.xcassets */; };
 		F5216ACD1E60E3D2001FC7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5216ACB1E60E3D2001FC7F8 /* LaunchScreen.storyboard */; };
+		F5216AD61E60E8A0001FC7F8 /* ResultadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5216AD51E60E8A0001FC7F8 /* ResultadoViewController.m */; };
+		F5216AD91E60EEE0001FC7F8 /* Pergunta.m in Sources */ = {isa = PBXBuildFile; fileRef = F5216AD81E60EEE0001FC7F8 /* Pergunta.m */; };
+		F5216ADC1E60F0F6001FC7F8 /* PerguntaDao.m in Sources */ = {isa = PBXBuildFile; fileRef = F5216ADB1E60F0F6001FC7F8 /* PerguntaDao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		F5216AC91E60E3D2001FC7F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5216ACC1E60E3D2001FC7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5216ACE1E60E3D2001FC7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5216AD41E60E8A0001FC7F8 /* ResultadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultadoViewController.h; sourceTree = "<group>"; };
+		F5216AD51E60E8A0001FC7F8 /* ResultadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultadoViewController.m; sourceTree = "<group>"; };
+		F5216AD71E60EEE0001FC7F8 /* Pergunta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pergunta.h; sourceTree = "<group>"; };
+		F5216AD81E60EEE0001FC7F8 /* Pergunta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pergunta.m; sourceTree = "<group>"; };
+		F5216ADA1E60F0F6001FC7F8 /* PerguntaDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerguntaDao.h; sourceTree = "<group>"; };
+		F5216ADB1E60F0F6001FC7F8 /* PerguntaDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerguntaDao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				F5216ACB1E60E3D2001FC7F8 /* LaunchScreen.storyboard */,
 				F5216ACE1E60E3D2001FC7F8 /* Info.plist */,
 				F5216ABD1E60E3D1001FC7F8 /* Supporting Files */,
+				F5216AD41E60E8A0001FC7F8 /* ResultadoViewController.h */,
+				F5216AD51E60E8A0001FC7F8 /* ResultadoViewController.m */,
+				F5216AD71E60EEE0001FC7F8 /* Pergunta.h */,
+				F5216AD81E60EEE0001FC7F8 /* Pergunta.m */,
+				F5216ADA1E60F0F6001FC7F8 /* PerguntaDao.h */,
+				F5216ADB1E60F0F6001FC7F8 /* PerguntaDao.m */,
 			);
 			path = "quiz-objetivec";
 			sourceTree = "<group>";
@@ -152,6 +167,9 @@
 			files = (
 				F5216AC51E60E3D2001FC7F8 /* ViewController.m in Sources */,
 				F5216AC21E60E3D2001FC7F8 /* AppDelegate.m in Sources */,
+				F5216ADC1E60F0F6001FC7F8 /* PerguntaDao.m in Sources */,
+				F5216AD61E60E8A0001FC7F8 /* ResultadoViewController.m in Sources */,
+				F5216AD91E60EEE0001FC7F8 /* Pergunta.m in Sources */,
 				F5216ABF1E60E3D1001FC7F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
