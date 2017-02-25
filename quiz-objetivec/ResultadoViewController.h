@@ -10,4 +10,7 @@
 
 @interface ResultadoViewController : UIViewController
 
+@property IBOutlet UILabel *txtTotalPontos;
+@property NSString *totalPontos;
+
 @end
